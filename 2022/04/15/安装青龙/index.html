@@ -5,8 +5,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Hexo">
-    <meta name="description" content="title: 青龙依赖一键只支持青龙 2.10 + 版本（带依赖管理的） #低版本只能自己进青龙容器运行 npm install (依赖名字逐个安装)
-nodejs12345678910111213141516171819202122232">
+    <meta name="description" content="title: 安装青龙安装 Docker（三选一）使用官方源安装（国内直接访问较慢）：curl -fsSL https://get.docker.com | bash
+使用阿里源安装（推荐 &amp;#x2F; 好像国内自带加速）：curl -fs">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -464,12 +464,12 @@ nodejs12345678910111213141516171819202122232">
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="title-青龙依赖"><a href="#title-青龙依赖" class="headerlink" title="title: 青龙依赖"></a>title: 青龙依赖</h3><p>一键只支持青龙 2.10 + 版本（带依赖管理的） #低版本只能自己进青龙容器运行 npm install (依赖名字逐个安装)</p>
-<h1 id="nodejs"><a href="#nodejs" class="headerlink" title="nodejs"></a>nodejs</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">date-fns</span><br><span class="line">png-js</span><br><span class="line">js-base64</span><br><span class="line">requests</span><br><span class="line">cjs</span><br><span class="line">dotenv</span><br><span class="line">crypto -g</span><br><span class="line">ts-md5</span><br><span class="line">-g typescipt</span><br><span class="line">form-data</span><br><span class="line">crypto-js</span><br><span class="line">@types/node</span><br><span class="line">jsdom</span><br><span class="line">npm</span><br><span class="line">jieba</span><br><span class="line">axios</span><br><span class="line">-g npm</span><br><span class="line">crypto</span><br><span class="line">upgrade pip</span><br><span class="line">tslib</span><br><span class="line">require</span><br><span class="line">prettytable</span><br><span class="line">tough-cookie</span><br><span class="line">ws@7.4.3</span><br><span class="line">fs</span><br><span class="line">json5</span><br><span class="line">global-agent</span><br></pre></td></tr></table></figure>
-
-<h1 id="python"><a href="#python" class="headerlink" title="python"></a>python</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">requests</span><br><span class="line">typescript</span><br><span class="line">aiohttp</span><br><span class="line">pip</span><br><span class="line">--upgrade pip</span><br><span class="line">pytz</span><br><span class="line">success</span><br><span class="line">ping3</span><br><span class="line">canvas</span><br><span class="line">jieba</span><br></pre></td></tr></table></figure>
-
-<p>搞定，耐心等待安装完成，后续也会自动更新依赖</p>
+                <h3 id="title-安装青龙"><a href="#title-安装青龙" class="headerlink" title="title: 安装青龙"></a>title: 安装青龙</h3><h2 id="安装-Docker（三选一）"><a href="#安装-Docker（三选一）" class="headerlink" title="安装 Docker（三选一）"></a>安装 Docker（三选一）</h2><h2 id="使用官方源安装（国内直接访问较慢）："><a href="#使用官方源安装（国内直接访问较慢）：" class="headerlink" title="使用官方源安装（国内直接访问较慢）："></a>使用官方源安装（国内直接访问较慢）：</h2><p><code>curl -fsSL https://get.docker.com | bash</code></p>
+<h2 id="使用阿里源安装（推荐-x2F-好像国内自带加速）："><a href="#使用阿里源安装（推荐-x2F-好像国内自带加速）：" class="headerlink" title="使用阿里源安装（推荐 &#x2F; 好像国内自带加速）："></a>使用阿里源安装（推荐 &#x2F; 好像国内自带加速）：</h2><p><code>curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun</code></p>
+<h2 id="使用中国区-Azure-源安装："><a href="#使用中国区-Azure-源安装：" class="headerlink" title="使用中国区 Azure 源安装："></a>使用中国区 Azure 源安装：</h2><p><code>curl -fsSL https://get.docker.com | bash -s docker --mirror AzureChinaCloud</code></p>
+<h2 id="启动-Docker-服务"><a href="#启动-Docker-服务" class="headerlink" title="启动 Docker 服务"></a>启动 Docker 服务</h2><h2 id="设置开机自启："><a href="#设置开机自启：" class="headerlink" title="设置开机自启："></a>设置开机自启：</h2><p><code>systemctl enable docker</code></p>
+<h2 id="启动-Docker："><a href="#启动-Docker：" class="headerlink" title="启动 Docker："></a>启动 Docker：</h2><p><code>systemctl start docker</code></p>
+<h1 id="安装青龙"><a href="#安装青龙" class="headerlink" title="安装青龙"></a>安装青龙</h1><p><code>d</code>ocker run -dit `<br>  <code>--name QL \</code><br>  <code>--hostname QL \</code><br>  <code>--restart always \</code><br>  <code>-p 5700:5700 \</code><br>  <code>-v /root/QL/config:/ql/config \</code><br>  <code>-v /root/QL/log:/ql/log \</code><br>  <code>-v /root/QL/db:/ql/db \</code><br>  <code>-v /root/QL/scripts:/ql/scripts \</code><br>  <code>-v /root/QL/jbot:/ql/jbot \</code><br>  <code>-v /root/QL/raw:/ql/raw \</code><br>  <code>-v /root/QL/repo:/ql/repo \</code><br>  <code>-v /root/QL/deps:/ql/deps \</code><br>  whyour&#x2F;qinglong:latest&#96;</p>
 
                 
             </div>
@@ -496,7 +496,7 @@ nodejs12345678910111213141516171819202122232">
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2022/04/15/%E9%9D%92%E9%BE%99%E4%BE%9D%E8%B5%96/">http://example.com/2022/04/15/%E9%9D%92%E9%BE%99%E4%BE%9D%E8%B5%96/</a>
+                    <a href="http://example.com/2022/04/15/%E5%AE%89%E8%A3%85%E9%9D%92%E9%BE%99/">http://example.com/2022/04/15/%E5%AE%89%E8%A3%85%E9%9D%92%E9%BE%99/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -705,9 +705,10 @@ nodejs12345678910111213141516171819202122232">
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
                 <a href="/2022/04/15/%E5%AE%89%E8%A3%85%E9%9D%92%E9%BE%99/">
                     <div class="card-image">
@@ -725,9 +726,9 @@ nodejs12345678910111213141516171819202122232">
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-04-15
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-15
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -736,6 +737,7 @@ nodejs12345678910111213141516171819202122232">
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -746,13 +748,13 @@ nodejs12345678910111213141516171819202122232">
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/04/15/hello-world/">
+                <a href="/2022/04/15/%E9%9D%92%E9%BE%99%E4%BE%9D%E8%B5%96/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
